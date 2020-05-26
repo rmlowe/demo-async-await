@@ -6,3 +6,9 @@ const getItems = () => {
     });
 };
 
+getItems()
+    .then(results => {
+        console.log(results);
+    })
+    .catch(err => console.error(err));
+
